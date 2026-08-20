@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "jsonlint": "^1.6.3",
+    "lint-staged": "^17.3.0"
+  },
+  "scripts": {
+    "prepare": "husky"
+  },
+  "lint-staged": {
+  "*.json": [
+    "jsonlint --quiet"
+  ]
+}
+}

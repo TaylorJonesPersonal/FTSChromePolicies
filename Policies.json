@@ -1,16 +1,33 @@
 [
-  { "toplevel_name": "DST Links" },
+  { "toplevel_name": "FTS Links" },
+  {
+    "name": "Employee",
+    "children": [
+      {
+        "name": "PSU Employee Dashboard (Time Clock)",
+        "url": "https://app.banner.pdx.edu/EmployeeSelfService/ssb/hrDashboard#/hrDashboard"
+      },
+      { "name": "ZoomShift", "url": "https://next.zoomshift.com/" }
+    ]
+  },
+  {"name": "Reports",
+    "children": [
+      {
+        "name": "FTS Surplus Run Spreadsheet",
+        "url": "https://docs.google.com/spreadsheets/d/1kIGCfaDA042yR8X4E8i44jD3MveWV3dzsHIX4k7-5TE/edit?pli=1&gid=59248197#gid=59248197"
+      },
+      {
+        "name": "General Pool RO Room List",
+        "url": "https://docs.google.com/spreadsheets/d/1LPAbBxso7CBFBcRyoQVdpD1kabFDRmk2sQSdoHVncSM/edit?gid=1229410926#gid=1229410926"
+      }
+    ]},
   {
     "name": "People & Places",
     "children": [
       { "name": "Slack", "url": "https://oit.slack.com/" },
       {
-        "name": "List of OIT TAGs",
-        "url": "https://www.pdx.edu/oit/dept-it-support"
-      },
-      {
-        "name": "PSU Directory Search",
-        "url": "https://www.pdx.edu/directory/search/surfacej%40pdx.edu"
+        "name": "Staff and Faculty Directory",
+        "url": "https://www.pdx.edu/faculty-staff-directory"
       },
       {
         "name": "ePSU Marketplace",
@@ -26,49 +43,38 @@
   {
     "name": "Tools",
     "children": [
-      { "name": "DST Youcanbookme", "url": "https://dst.youcanbook.me/" },
+      {
+        "name": "OIT Apps (VDI)",
+        "url": "https://apps.oit.pdx.edu/rdWeb/webclient/index.html"
+      },
+      {
+        "name": "WEPA Dashboard",
+        "url": "https://cs.wepanow.com/000PDX392.html&filter="
+      },
       { "name": "Jamf Console", "url": "https://jamf.oit.pdx.edu:8443/" },
       {
-        "name": "Jira",
+        "name": "Jira - FTS Loaner Tracking",
         "url": "https://portlandstate.atlassian.net/secure/Dashboard.jspa"
       },
       {
-        "name": "DST Jira Dashboard (useful for those who also use other Dashboards)",
-        "url": "https://portlandstate.atlassian.net/secure/Dashboard.jspa?selectPageId=13803"
+        "name": "Jira - FTS Current Bench V.5",
+        "url": "https://portlandstate.atlassian.net/jira/dashboards/14175"
       },
       {
         "name": "Confluence",
         "url": "https://portlandstate.atlassian.net/wiki/discover/all-updates"
       },
       {
-        "name": "Confluence (SDO KB Overview)",
-        "url": "https://portlandstate.atlassian.net/wiki/spaces/SDOKB/overview"
+        "name": "Confluence - FST Quick Jump",
+        "url": "https://portlandstate.atlassian.net/wiki/spaces/FTS/pages/43950178/FST+Quick+Jump"
       },
-      { "name": "Old RT", "url": "https://support.oit.pdx.edu/" },
       {
         "name": "BitLocker Recovery and Unlock",
         "url": "https://unlock.oit.pdx.edu/helpdesk/"
       },
-      { "name": "ZoomShift", "url": "https://next.zoomshift.com/" },
-      {
-        "name": "TimeClock",
-        "url": "https://app.zoomshift.com/sp5wpkjq/time_clock"
-      },
-      {
-        "name": "Jamf Enrollment",
-        "url": "https://jamf.oit.pdx.edu:8443/enroll"
-      },
-      {
-        "name": "Weekly Assignments 2020 (Google Speadsheet)",
-        "url": "https://docs.google.com/spreadsheets/d/1vS80aFQ_6vPU8RHr0uSq9iODsNrkCq2RIDrnggN_cqg/edit#gid=2146592295"
-      },
-      {
-        "name": "rdWeb",
-        "url": "https://rds-web.oit.pdx.edu/rdWeb/webclient/index.html"
-      },
       {
         "name": "Apple Warranty Check",
-        "url": "https://checkcoverage.apple.com/"
+        "url": "https://checkcoverage.apple.com/?locale=en_US"
       }
     ]
   },
@@ -76,56 +82,20 @@
     "name": "References",
     "children": [
       {
-        "name": "DST Cheatsheet (Confluence)",
+        "name": "FTS Cheatsheet (Confluence)",
         "url": "https://portlandstate.atlassian.net/wiki/spaces/SDOKB/pages/25526284/DST+Cheatsheet+and+New+Employee+Reference+Guide"
-      },
-      {
-        "name": "Confluence",
-        "url": "https://portlandstate.atlassian.net/wiki/discover/all-updates"
-      },
-      {
-        "name": "Confluence (SDO KB Overview)",
-        "url": "https://portlandstate.atlassian.net/wiki/spaces/SDOKB/overview"
-      },
-      {
-        "name": "Software Orders Database",
-        "url": "https://oit.services.pdx.edu/software-order/admin/orders.php"
       },
       {
         "name": "Team Google Drive",
         "url": "https://drive.google.com/drive/folders/0AOHiGdYJa9ckUk9PVA"
       },
       {
-        "name": "Drive Wipe (Google Spreadsheet)",
-        "url": "https://docs.google.com/spreadsheets/d/16YhhdSnkC0NNfIjZ4PxRw4RdKb0S5q9ifEOILesNmNI/edit?ouid=105641198996635444866"
-      },
-      {
-        "name": "DST Canned Emails (Confluence)",
+        "name": "FTS Canned Emails (Confluence)",
         "url": "https://portlandstate.atlassian.net/wiki/spaces/HD/pages/36208714/DST+Canned+Emails"
       },
       {
-        "name": "PSU Supported Endpoint Hardware List (Google Spreadsheet)",
-        "url": "https://docs.google.com/spreadsheets/d/1h5t9vuuX6gsCpLOJenUkHVlVgM2gv4BDGcII5M8Jv4U/edit#gid=0"
-      },
-      {
-        "name": "PSU Areas of Support (Confluence)",
-        "url": "https://portlandstate.atlassian.net/wiki/spaces/SDOKB/pages/12779545/PSU+Areas+of+Support"
-      },
-      {
-        "name": "SS64 | Command Line Reference (*nix Terminal/CMD/PS/etc.)",
-        "url": "https://ss64.com/"
-      },
-      {
-        "name": "Snippets for signature, canned email, etc",
-        "url": "https://dashboard.blaze.today/"
-      },
-      {
-        "name": "10.13 technical requirements ",
-        "url": "https://support.apple.com/kb/sp765?locale=en_US"
-      },
-      {
-        "name": "10.14 technical requirements ",
-        "url": "https://support.apple.com/kb/SP777?locale=en_US"
+        "name": "OIT Computer Standards List (Models We Support)",
+        "url": "https://docs.google.com/spreadsheets/d/1S2GV5YdC3Z4EBz5nVMxpkZ3OHZ6sxWgUMXkN3LNgzO8/edit?gid=696849519#gid=696849519"
       }
     ]
   }
